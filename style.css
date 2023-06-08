@@ -369,7 +369,7 @@ h7 {
   font-size: 16px;
   border-radius: 160px 160px 160px 160px;
   position: relative;
-  padding-bottom: 200px;
+  padding: 0px 5px 200px 5px;
 }
 
 @media (max-width: 768px) {
@@ -573,7 +573,7 @@ h10 {
   display: flex;
   justify-content: center;
   position: absolute;
-  right: 1245px;
+  right: 0px;
   bottom: 135px;
 }
 
@@ -632,6 +632,12 @@ h10 {
   border-bottom: 2px solid #ffffff;
 }
 
+@media (max-width: 768px) {
+.header_3 {
+  line-height: 120%;
+  }
+}
+
 .header_3 a {
   margin: auto;
   margin-top: 60px;
@@ -654,6 +660,12 @@ h10 {
   justify-content: space-between;
   border-bottom: 2px solid #ffffff;
 }
+
+@media (max-width: 768px) {
+  .footer-top {
+    display: block;
+      }
+    }
 
 .footer-navbar {
   display: flex;
